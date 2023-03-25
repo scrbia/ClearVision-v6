@@ -16,15 +16,15 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #2780e6; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
-  --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
-  --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
-  --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
+  --main-color: #D2D1D8; /* main accent color (hex, rgb or hsl) [default: #D2D1D8] */
+  --hover-color: #8DADC7; /* hover accent color (hex, rgb or hsl) [default: #8DADC7] */
+  --success-color: #ABB0B9; /* success accent color (hex, rgb or hsl) [default: #ABB0B9] */
+  --danger-color: #B7ACAC; /* danger accent color (hex, rgb or hsl) [default: #B7ACAC] */
+  --url-color: #576590; /*The color of url links [default: #576590] */
 
   /* STATUS COLORS */
-  --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
-  --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+  --online-color: #6D9F88; /* online status color (hex, rgb or hsl) [default: #6D9F88] */
+  --idle-color: #FAA61A; /* idle status color (hex, rgb or hsl) [default: #FAA61A] */
   --dnd-color: #982929; /* dnd status color (hex, rgb or hsl) [default: #982929] */
   --streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
@@ -40,12 +40,12 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://i.imgur.com/2729kGW.jpg); /* app background image (link must be HTTPS) [default: url(https://i.imgur.com/2729kGW.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
   --background-attachment: fixed; /* app background attachment [default: fixed] */
-  --background-brightness: 100%; /* app background brightness (< 100% for darken, > 100% for lighten) [default: 100%] */
+  --background-brightness: 93%; /* app background brightness (< 93% for darken, > 93% for lighten) [default: 93%] */
   --background-contrast: 100%; /* app background contrast [default: 100%] */
   --background-saturation: 100%; /* app background saturation [default: 100%] */
   --background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
@@ -56,13 +56,13 @@
   /* HOME BUTTON ICON */
   --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-position: center; /* home button icon position [default: center] */
-  --home-size: 40px; /* home button icon size [default: 40px] */
+  --home-size: 30px; /* home button icon size [default: 30px] */
 
   /* CHANNEL COLORS */
-  --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgba(255, 255, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+  --channel-unread: #D3D3D3; /* Unread Server channel color. [default:  #D3D3D3] THIS OVERRIDES YOUR MAIN COLOR*/
+  --channel-color: rgb(165,165,165,1); /*Read Server channel color  [default: rgb(165,165,165,1);]*/
   --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
-  --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
+  --muted-color: rgb(255,255,255,0.25); /*Muted channel color  [default: rgb(255,255,255,0.25);]*/
 
   /* MODAL BACKDROP */
   --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
